@@ -11,7 +11,7 @@ const NavBar = () => {
     <div>
       <div className='flex justify-between px-4 md:px-24 py-6 md:py-10'>
         <div className="flex items-center space-x-4">
-          <img src='src/images/log.svg'className="w-12 h-12 md:w-16 md:h-16" alt="Description" />
+          <img src='src/images/log.svg'alt="Description" className="w-12 h-12 md:w-16 md:h-16"  />
           <h1 className="text-blue-500 text-lg md:text-3xl font-extrabold hidden sm:block">Logoipsum</h1>
         </div>
         <div className="block sm:hidden">
